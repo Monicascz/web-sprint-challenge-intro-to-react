@@ -2,8 +2,8 @@ import React, { useEffect, useState } from 'react';
 import './App.css';
 import axios from 'axios'
 import Character from './components/Character'
-
-
+import { ThemeProvider } from 'styled-components'
+import theme from './theme/index'
 const App = () => {
   // Try to think through what state you'll need for this app before starting. Then build out
   // the state properties here.
@@ -27,10 +27,12 @@ useEffect (()=>{
 
 
   return (
+    <ThemeProvider theme = {theme}>
     <div className="App">
       <h1 className="Header">Characters</h1>
       <Character characters={characters}/>
     </div>
+    </ThemeProvider>
   );
 }
 
