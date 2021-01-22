@@ -1,10 +1,7 @@
 export default {
-    fontColor: "#334e30", //darkgreen
-    cardBackColor: "#7e7863", //lightbrown
-    cardBorderColor: "#381010", // dark red
-    hoverBackColor: "#2e557c", //blue
-    hoverTextColor: "#ad7d37", //yellow
-    breakpointMobile: "(max-width: 1000px)",
+    titleFontColor: "#334e30", //darkgreen
+    cardBackColor: "#F9E9D1", // light tan
+    cardBorderColor: "#2e557c", // blue
     breakpoints: {
       mobile: "(max-width: 550px)",
       tablet: "(max-width: 1000px)",
@@ -14,3 +11,9 @@ export default {
       medium: "8px",
     },
   };
+
+//   "#334e30", //darkgreen
+//   "#7e7863", //lightbrown
+//   "#381010", // dark red
+//   "#2e557c", //blue
+//   "#ad7d37", //yellow
