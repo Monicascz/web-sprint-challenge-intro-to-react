@@ -24,7 +24,6 @@ useEffect (()=>{
 },[])
 
 
-
   return (
     <div className="App">
       <H1 className="Header">Characters</H1>

@@ -10,8 +10,8 @@ export default function Character(props) {
             <CardsDiv>
                 {/* //mapping here to select just one character from the array, passing character to the next file (CharacterCards) for styling */}
                 {
-                characters.map((character)=>{
-                    return <CharacterCards key={character.id} character={character}/>
+                characters.map((character, index)=>{
+                    return <CharacterCards key={index} character={character}/>
                 })
                 }
             </CardsDiv>
